@@ -14,9 +14,9 @@
 #define SHOCKER_NAME_LENGTH 45
 #define SHOCKER_ROLE_LENGTH 6
 
-#define TRANSMITTER_PIN 15
+#define TRANSMITTER_PIN 44
 #define RGB_PIN 48
-#define STATUS_PIN 35
+#define STATUS_PIN 43
 #define EMERGENCY_STOP_PIN 13
 
 #define LED_PIN 2
@@ -30,7 +30,7 @@
 
 #define UPNP_FRIENDLY_NAME       "OpenShock"   // this name will appear in your router port forwarding section
 
-#define MDNS_NAME                "openshock"   // You can access the web interface at http://<MDNS_NAME>.local
+#define MDNS_NAME                "ulthshock"   // You can access the web interface at http://<MDNS_NAME>.local
 
 #define OTA_PASSWORD             "shockme"
 //#define OTA_TIMEOUT              120000 // Time period in ms to allow OTA updates, comment out to disable

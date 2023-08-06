@@ -55,6 +55,8 @@ bool lastButtonState = HIGH;
 void printIPAddress() {
     debugPrint("IP address: ");
     debugPrintln(WiFi.localIP());
+    debugPrint("Data Pin: ");
+    debugPrintln(TRANSMITTER_PIN);
 }
 
 void onButtonTriplePress() {
