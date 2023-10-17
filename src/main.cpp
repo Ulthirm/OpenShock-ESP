@@ -206,6 +206,7 @@ void emergencyStopLEDLoop(unsigned long loopMillis) {
             lastEmergencyStopLEDLoop = loopMillis;
             if (emergencyStopLEDState) {
                 rgb.setRGB(0, 0, 0);
+                //digitalWrite(RGB_PIN, HIGH);
                 digitalWrite(STATUS_PIN, LOW);
                 emergencyStopLEDState = false;
             } else {

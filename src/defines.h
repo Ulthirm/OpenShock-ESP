@@ -15,11 +15,11 @@
 #define SHOCKER_ROLE_LENGTH 6
 
 #define TRANSMITTER_PIN 44
-#define RGB_PIN 48
+#define RGB_PIN 5
 #define STATUS_PIN 43
-#define EMERGENCY_STOP_PIN 13
+#define EMERGENCY_STOP_PIN 9
 
-#define LED_PIN 2
+#define LED_PIN 3
 
 #define COMMAND_TIMEOUT 500
 
